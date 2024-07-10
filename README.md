@@ -11,4 +11,7 @@ Este projeto é uma aplicação Node.js que demonstra autenticação usando toke
 
 ### Instalação
 
-
+1. Clone o repositório:
+```bash
+   git clone <url_do_repositorio>
+   cd <diretorio_do_projeto> 
