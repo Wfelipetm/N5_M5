@@ -13,28 +13,27 @@ Este projeto é uma aplicação Node.js que demonstra autenticação usando toke
 
 1. Clone o repositório:
 
-   git clone <url_do_repositorio>
-   cd <diretorio_do_projeto>
+   - git clone <url_do_repositorio>
+   - cd <diretorio_do_projeto>
 
 2. Instale as dependências:
-   npm i
+   - npm i
 
 3. Configure o banco de dados (se necessário):
-   npm run setup-db
+   - npm run setup-db
 
 4. Inicie a aplicação:
-   npm start
+   - npm start
 
 ### O servidor será iniciado em http://localhost:3000.
 
 # Documentação da API
 
-##Autenticação
+## Autenticação
 
  POST /api/auth/login
   
    - Faz login de um usuário com nome de usuário e senha.
-     
    - Retorna um token JWT para acessar rotas protegidas.
      
 ## Gerenciamento de Usuários
